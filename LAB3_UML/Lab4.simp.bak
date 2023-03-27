@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp2f7baa9082e942e680bdf2932007aeed">
+  <meta>
+    <name>Lab4</name>
+    <authors>Piotr Woszczak</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>5</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-635e1b69f92d403fb6119175c4081d55" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Piotr</first-name>
+        <last-name>Woszczak</last-name>
+        <role />
+        <e-mail>w64241@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1dea602a51f04c7fa3a5379b7ae4c922" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="integer" name="integer" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="195a8a2e7e334feda0a4393d2b80d170" cid="PROP003" type="property" name="HP" owner="e00926ac8ace46a6aca8830087d0a5e9" creator="" creation-date="03/27/2023 13:24:14" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Integer" type-id="Uml.Integer" />
+    </item>
+    <item id="0c9ff19bdd6340bd84be93180007fe46" cid="PROP002" type="property" name="haveEngine" owner="e00926ac8ace46a6aca8830087d0a5e9" creator="" creation-date="03/27/2023 13:24:00" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Boolean" type-id="Uml.Boolean" />
+    </item>
+  </items>
+  <models>
+    <model id="pf4a5bb90c20743a3967c38b264ed7c1c_232158226" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Piotr Woszczak</author>
+        </authors>
+        <description />
+        <creation-date>03/27/2023 12:54:07</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p7979d5ced08e4042a1ee58e0d5596dd9_984419242" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Piotr Woszczak</author>
+          </authors>
+          <description />
+          <creation-date>03/27/2023 12:54:07</creation-date>
+          <change-date>03/27/2023 13:19:40</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="e00926ac8ace46a6aca8830087d0a5e9" cid="C003" type="class" name="Samochód" creator="" creation-date="03/27/2023 13:18:55" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a1e338dabbf38434caf5c1bc2ae6198b6357" cid="PROP002" name="haveEngine" creation-date="03/27/2023 13:24:00" property-ref="0c9ff19bdd6340bd84be93180007fe46" />
+              <attribute id="a220960b4280747f9be688fc0c36bad9b268" cid="PROP003" name="HP" creation-date="03/27/2023 13:24:14" property-ref="195a8a2e7e334feda0a4393d2b80d170" />
+              <attribute id="a4da01d61ab8e420186343d14f77493c2504" cid="PROP007" name="maxSpeed" creation-date="03/27/2023 13:25:23" property-ref="a60bf2fbe23f40138db7071698661e95" />
+            </attributes>
+            <operations>
+              <operation id="o42952a11f1fe4c7488e20201e790fc09575" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:15" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o545e6dd4537843e089af665fb481e09f123" cid="OP002" name="haveEngine" creation-date="03/27/2023 13:22:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o5e501da56759453aa68ec45ff78ba779371" cid="OP003" name="getHP" creation-date="03/27/2023 13:22:31" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o93faf17f0fb14a6399812fe772204dd0226" cid="OP004" name="getMaxSpeed" creation-date="03/27/2023 13:25:33" type="Integer" type-id="Uml.Integer" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="a60bf2fbe23f40138db7071698661e95" cid="PROP007" type="property" name="maxSpeed" owner="e00926ac8ace46a6aca8830087d0a5e9" creator="" creation-date="03/27/2023 13:25:23" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="844cfcdc562f41cd9ba9271df6d076ef" cid="I001" type="uml-interface-classifier" name="Pojazd" creator="" creation-date="03/27/2023 13:18:34" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="844cfcdc562f41cd9ba9271df6d076ef_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <owned-items />
+            <operations>
+              <operation id="o42952a11f1fe4c7488e20201e790fc09575" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:15" type="Integer" type-id="Uml.Integer" visibility="undefined" />
+              <operation id="o545e6dd4537843e089af665fb481e09f123" cid="OP002" name="haveEngine" creation-date="03/27/2023 13:22:22" type="Boolean" type-id="Uml.Boolean" visibility="undefined" />
+              <operation id="o5e501da56759453aa68ec45ff78ba779371" cid="OP003" name="getHP" creation-date="03/27/2023 13:22:31" type="Integer" type-id="Uml.Integer" visibility="undefined" />
+            </operations>
+          </item>
+          <item id="d7124ed482c34b7b8c24cdafe85d8c1e" cid="PROP005" type="property" name="haveEngine" owner="346542b742c54410b4c37df1f663c740" creator="" creation-date="03/27/2023 13:24:54" visibility="private">
+            <structural-feature type="Boolean" type-id="Uml.Boolean" />
+          </item>
+          <item id="037a84fe457b4048b042163d4b60ecb9" cid="REA003" type="realization" name="Implementuje" creator="" creation-date="03/27/2023 13:19:27" from="e00926ac8ace46a6aca8830087d0a5e9" to="844cfcdc562f41cd9ba9271df6d076ef" visibility="package" />
+          <item id="13a036a6a8604e89a5b9403cfcb26913" cid="REA004" type="realization" name="Implementuje" creator="" creation-date="03/27/2023 13:19:37" from="346542b742c54410b4c37df1f663c740" to="844cfcdc562f41cd9ba9271df6d076ef" visibility="package" />
+          <item id="346542b742c54410b4c37df1f663c740" cid="C002" type="class" name="Rower" creator="" creation-date="03/27/2023 13:18:49" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="aa0162cb7b66e456abd5be896a8957dbe818" cid="PROP005" name="haveEngine" creation-date="03/27/2023 13:24:54" property-ref="d7124ed482c34b7b8c24cdafe85d8c1e" />
+            </attributes>
+            <operations>
+              <operation id="o42952a11f1fe4c7488e20201e790fc09575" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:15" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o545e6dd4537843e089af665fb481e09f123" cid="OP002" name="haveEngine" creation-date="03/27/2023 13:22:22" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o5e501da56759453aa68ec45ff78ba779371" cid="OP003" name="getHP" creation-date="03/27/2023 13:22:31" type="Integer" type-id="Uml.Integer" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+        </abstract-items>
+        <layer id="3f336a16be664686855d85c818d43843" name="Default" visible="true" enabled="true" locked="false">
+          <item id="844cfcdc562f41cd9ba9271df6d076ef" iid="7f025a685d0c499d8a18a9fb913e1725" creation-date="03/27/2023 13:18:34" order-index="0" type="entity">
+            <layout ax="759" ay="77" awidth="140" aheight="160" x="759" y="77" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="346542b742c54410b4c37df1f663c740" iid="87d5d6abf95b4fc9a3706991f32aecff" show-fields="true" creation-date="03/27/2023 13:18:49" order-index="1" type="entity">
+            <layout ax="899" ay="388" awidth="279" aheight="120" x="899" y="388" width="279" height="120" rotation-center="-69.5,20" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e00926ac8ace46a6aca8830087d0a5e9" iid="50257e7582604d07b50f8a94389eda21" show-fields="true" creation-date="03/27/2023 13:18:55" order-index="2" type="entity">
+            <layout ax="507" ay="388" awidth="293" aheight="174" x="507" y="388" width="293" height="174" rotation-center="44.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="037a84fe457b4048b042163d4b60ecb9" iid="ec8e63e5b86e45588faf3be0461cb95e" creation-date="03/27/2023 13:19:27" order-index="3" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="702" y1="388" x2="785" y2="237" start-border-pos="0.166277628302981" end-border-pos="0.703616333007812" name-position="0,20">
+              <points>
+                <point x="702" y="388" />
+                <point x="785" y="237" />
+              </points>
+            </layout>
+            <relation from="e00926ac8ace46a6aca8830087d0a5e9" from-iid="50257e7582604d07b50f8a94389eda21" to="844cfcdc562f41cd9ba9271df6d076ef" to-iid="7f025a685d0c499d8a18a9fb913e1725" />
+          </item>
+          <item id="13a036a6a8604e89a5b9403cfcb26913" iid="67a560183b7843ba8d8483eeec8199c8" creation-date="03/27/2023 13:19:37" order-index="4" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="995" y1="388" x2="886" y2="237" start-border-pos="0.0859383750560036" end-border-pos="0.522398158482143" name-position="0,20">
+              <points>
+                <point x="995" y="388" />
+                <point x="886" y="237" />
+              </points>
+            </layout>
+            <relation from="346542b742c54410b4c37df1f663c740" from-iid="87d5d6abf95b4fc9a3706991f32aecff" to="844cfcdc562f41cd9ba9271df6d076ef" to-iid="7f025a685d0c499d8a18a9fb913e1725" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
