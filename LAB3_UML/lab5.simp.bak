@@ -27,7 +27,7 @@
       </counter>
       <counter>
         <item-type type-id="general-transition" type="Transition" />
-        <value>18</value>
+        <value>16</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -95,7 +95,7 @@
           </authors>
           <description />
           <creation-date>04/03/2023 13:37:26</creation-date>
-          <change-date>04/03/2023 14:06:27</change-date>
+          <change-date>04/03/2023 14:03:59</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -130,7 +130,7 @@
           </item>
           <item id="6662f4c6ee9f4ba190ea325e37ebd177" cid="ELEM014" type="general-transition" creator="" creation-date="04/03/2023 14:02:42" from="di731b3d22c31f46b98f08ff85847c7d7e9277" to="4948f200e2f74202a6c768522b1fef07" visibility="package">
             <transition guard="" behaviourExpression="">
-              <trigger>currentTemp &gt; setTemperatureHigh</trigger>
+              <trigger>setTemperatureLow &lt; currentTemp &lt; setTemperatureHigh</trigger>
             </transition>
           </item>
           <item id="dif65e7f74d4654383b4b21a83c76faa5a8155" cid="ELEM004" type="general-transition" creator="" creation-date="04/03/2023 13:55:48" from="4948f200e2f74202a6c768522b1fef07" to="di731b3d22c31f46b98f08ff85847c7d7e9277" visibility="package">
@@ -140,7 +140,7 @@
           </item>
           <item id="0661b9f1e52b402aa22dee3138550523" cid="ELEM013" type="general-transition" creator="" creation-date="04/03/2023 14:01:59" from="di130cc6f320c84ad9a5a48e1a03d4acc53910" to="4948f200e2f74202a6c768522b1fef07" visibility="package">
             <transition guard="" behaviourExpression="">
-              <trigger>currentTemp &lt; setTemperatureLow</trigger>
+              <trigger>setTemperatureLow &lt; currentTemp &lt; setTemperatureHigh</trigger>
             </transition>
           </item>
           <item id="dde778d1f6724e3882a0edb99c7698bb" cid="ELEM001" type="general-transition" creator="" creation-date="04/03/2023 13:54:46" from="b2aa101950d34a87a45f0ad4e2300b14" to="4948f200e2f74202a6c768522b1fef07" visibility="package">
@@ -150,9 +150,6 @@
             <transition guard="" behaviourExpression="">
               <trigger>getCurrentTemp</trigger>
             </transition>
-          </item>
-          <item id="de0a935937774d5b9055d3cd72ca947f" cid="ELEM017" type="general-transition" creator="" creation-date="04/03/2023 14:06:27" from="di130cc6f320c84ad9a5a48e1a03d4acc53910" to="di731b3d22c31f46b98f08ff85847c7d7e9277" visibility="package">
-            <transition guard="" behaviourExpression="" />
           </item>
           <item id="di731b3d22c31f46b98f08ff85847c7d7e9277" cid="ST003" type="state" name="Grzeje" creator="" creation-date="04/03/2023 13:53:30" visibility="undefined">
             <state composite="false" orthogonal="false" simple="false" submachine-state="false">
@@ -204,7 +201,7 @@
             <relation from="4948f200e2f74202a6c768522b1fef07" from-iid="13304214557540d6ab0f00efc1032ce6" to="di731b3d22c31f46b98f08ff85847c7d7e9277" to-iid="9a6083b1a7e34be39618482c19b996b0" />
           </item>
           <item id="9573e61ee1744ab6b3eeea11eba391b6" iid="730b882c0a924033b8bc2bcd029424ff" creation-date="04/03/2023 13:58:51" order-index="4" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="694" y1="469" x2="694" y2="517" start-border-pos="0.25" end-border-pos="0.5" start-local-pos="0" end-local-pos="48" name-position="18,39">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="694" y1="469" x2="694" y2="517" start-border-pos="0.25" end-border-pos="0.5" start-local-pos="0" end-local-pos="48" name-position="18,49">
               <points>
                 <point x="694" y="469" />
                 <point x="740" y="469" />
@@ -215,7 +212,7 @@
             <relation from="di130cc6f320c84ad9a5a48e1a03d4acc53910" from-iid="d527fa70cbc844e2befed15cf3aafc3b" to="di130cc6f320c84ad9a5a48e1a03d4acc53910" to-iid="d527fa70cbc844e2befed15cf3aafc3b" />
           </item>
           <item id="9964ea8650b1493e897563291e8928d2" iid="cf82105cfbdd416b997e347ad3f055ec" creation-date="04/03/2023 14:00:23" order-index="5" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="694" y1="198" x2="694" y2="246" start-border-pos="0.25" end-border-pos="0.5" start-local-pos="-0.5" end-local-pos="47.5" name-position="13,-41">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="694" y1="198" x2="694" y2="246" start-border-pos="0.25" end-border-pos="0.5" start-local-pos="-0.5" end-local-pos="47.5" name-position="13,-50">
               <points>
                 <point x="694" y="198" />
                 <point x="694" y="198" />
@@ -228,7 +225,7 @@
             <relation from="di731b3d22c31f46b98f08ff85847c7d7e9277" from-iid="9a6083b1a7e34be39618482c19b996b0" to="di731b3d22c31f46b98f08ff85847c7d7e9277" to-iid="9a6083b1a7e34be39618482c19b996b0" />
           </item>
           <item id="0661b9f1e52b402aa22dee3138550523" iid="6e164fd535f44d1fb51d539c9384f120" creation-date="04/03/2023 14:01:59" order-index="6" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="594" y1="469" x2="514" y2="367" start-border-pos="0" end-border-pos="0.5" start-local-pos="0" end-local-pos="48.5" name-position="82,35" name-width="143">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="594" y1="469" x2="514" y2="367" start-border-pos="0" end-border-pos="0.5" start-local-pos="0" end-local-pos="48.5" name-position="122,37" name-width="229">
               <points>
                 <point x="594" y="469" />
                 <point x="594" y="367" />
@@ -238,7 +235,7 @@
             <relation from="di130cc6f320c84ad9a5a48e1a03d4acc53910" from-iid="d527fa70cbc844e2befed15cf3aafc3b" to="4948f200e2f74202a6c768522b1fef07" to-iid="13304214557540d6ab0f00efc1032ce6" />
           </item>
           <item id="6662f4c6ee9f4ba190ea325e37ebd177" iid="7a022391b45644f9a9be2b962d4bdcd3" creation-date="04/03/2023 14:02:42" order-index="7" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="594" y1="246" x2="514" y2="318" start-border-pos="0.75" end-border-pos="0.25" start-local-pos="47.5" end-local-pos="-0.5" name-position="86,-27" name-width="147">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="594" y1="246" x2="514" y2="318" start-border-pos="0.75" end-border-pos="0.25" start-local-pos="47.5" end-local-pos="-0.5" name-position="126,-24" name-width="225">
               <points>
                 <point x="594" y="246" />
                 <point x="594" y="318" />
@@ -259,19 +256,6 @@
               </points>
             </layout>
             <relation from="4948f200e2f74202a6c768522b1fef07" from-iid="13304214557540d6ab0f00efc1032ce6" to="4948f200e2f74202a6c768522b1fef07" to-iid="13304214557540d6ab0f00efc1032ce6" />
-          </item>
-          <item id="de0a935937774d5b9055d3cd72ca947f" iid="a0410363947744539a07855c379815d5" creation-date="04/03/2023 14:06:27" order-index="9" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="648" y1="517" x2="644" y2="198" start-border-pos="0.615" end-border-pos="0.125" start-local-pos="54" end-local-pos="50" name-position="0,20">
-              <points>
-                <point x="648" y="517" />
-                <point x="648" y="635" />
-                <point x="880" y="634" />
-                <point x="865" y="136" />
-                <point x="642" y="136" />
-                <point x="644" y="198" />
-              </points>
-            </layout>
-            <relation from="di130cc6f320c84ad9a5a48e1a03d4acc53910" from-iid="d527fa70cbc844e2befed15cf3aafc3b" to="di731b3d22c31f46b98f08ff85847c7d7e9277" to-iid="9a6083b1a7e34be39618482c19b996b0" />
           </item>
         </layer>
       </diagram>
