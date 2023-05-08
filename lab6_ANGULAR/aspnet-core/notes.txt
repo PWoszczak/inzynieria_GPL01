@@ -1,0 +1,6 @@
+sqlite,swagger
+
+usunac migrations
+konsola menedżera pakietów -> EntityFrameworkCore
+>add-migration init
+>Update-Database
