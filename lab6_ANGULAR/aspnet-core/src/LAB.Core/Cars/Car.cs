@@ -12,5 +12,6 @@ namespace LAB.Cars
     {
         public bool IsDeleted { get; set; }
         public DateTime CreationTime { get; set; }
+
     }
 }

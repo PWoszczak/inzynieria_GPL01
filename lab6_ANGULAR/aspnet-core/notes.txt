@@ -1,6 +1,18 @@
 sqlite,swagger
 
+labwebhost jako projekt startowy usawic
+
 usunac migrations
 konsola menedżera pakietów -> EntityFrameworkCore
 >add-migration init
 >Update-Database
+
+
+zad:
+
+        //klucz obcy
+        //public int UserID {get;set;}
+        //public User User {get;set;}
+
+
+        //dwie encje w corze, potem dodac do entityframework do dcontext, zrobic migracje update-database,

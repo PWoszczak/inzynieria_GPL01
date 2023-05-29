@@ -1567,6 +1567,33 @@ namespace LAB.Migrations
                     b.ToTable("AbpUsers");
                 });
 
+            modelBuilder.Entity("LAB.Bouquets.Bouquet", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FlowerID")
+                        .HasColumnType("int");
+
+                    b.Property<long?>("FlowerId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FlowerId");
+
+                    b.ToTable("Bouquets");
+                });
+
             modelBuilder.Entity("LAB.Cars.Car", b =>
                 {
                     b.Property<long>("Id")
@@ -1584,6 +1611,33 @@ namespace LAB.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cars");
+                });
+
+            modelBuilder.Entity("LAB.Flowers.Flower", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.Property<long?>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Flowers");
                 });
 
             modelBuilder.Entity("LAB.MultiTenancy.Tenant", b =>
@@ -1866,6 +1920,24 @@ namespace LAB.Migrations
                     b.Navigation("DeleterUser");
 
                     b.Navigation("LastModifierUser");
+                });
+
+            modelBuilder.Entity("LAB.Bouquets.Bouquet", b =>
+                {
+                    b.HasOne("LAB.Flowers.Flower", "Flower")
+                        .WithMany()
+                        .HasForeignKey("FlowerId");
+
+                    b.Navigation("Flower");
+                });
+
+            modelBuilder.Entity("LAB.Flowers.Flower", b =>
+                {
+                    b.HasOne("LAB.Authorization.Users.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("LAB.MultiTenancy.Tenant", b =>
