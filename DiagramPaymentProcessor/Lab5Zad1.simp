@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simpa259b1b526e04f3192ae4e986e441cc6">
+  <meta>
+    <name>Lab5Zad1</name>
+    <authors>Piotr Woszczak</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-rounded-rect" type="Rounded Rectangle" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-provided-interface-connector" type="Provided Interface Connector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface" type="Provided Interface End" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-rounded-rect" type="Rounded Rectangle" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>12</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-9af0fab44167416b828ac31254a7bad2" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Piotr</first-name>
+        <last-name>Woszczak</last-name>
+        <role />
+        <e-mail>w64241@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-8ddf6406bed2458684b41292f51dec26" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:5835c8735b9445039a08c962895a6715" name="PaymentProcessor" class-ref="5835c8735b9445039a08c962895a6715" />
+        <type id="String[]" name="String[]" />
+        <type id="Class:83bf84b19144464e85272545685a7e1f" name="PaymentMethod" class-ref="83bf84b19144464e85272545685a7e1f" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="7d3fd39395f5453a8cb1edcc20df8995" cid="PROP008" type="property" name="paymentMethod" owner="5835c8735b9445039a08c962895a6715" creator="" creation-date="04/24/2023 13:49:20" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="PaymentMethod" type-id="Class:83bf84b19144464e85272545685a7e1f" />
+    </item>
+    <item id="7b66c2a3e72c40f78153179fc1530ae5" cid="PROP011" type="property" owner="d74885d9ab1e44b4a3f5d9d441dd1eb6" creator="" creation-date="04/24/2023 13:54:03" visibility="private" />
+    <item id="4608793a1cb64db89091c2af947bfd73" cid="PROP003" type="property" name="Fees" owner="83bf84b19144464e85272545685a7e1f" creator="" creation-date="04/24/2023 13:30:51" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String[]" type-id="String[]" />
+    </item>
+    <item id="9b60b977260946df91e78ba997aa920f" cid="PROP001" type="property" name="platformName" owner="83bf84b19144464e85272545685a7e1f" creator="" creation-date="04/24/2023 13:29:59" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Uml.String" />
+    </item>
+    <item id="776c53e80cd84450876cf210cc498ec2" cid="PROP012" type="property" owner="d74885d9ab1e44b4a3f5d9d441dd1eb6" creator="" creation-date="04/24/2023 13:54:03" visibility="private">
+      <structural-feature type="PaymentProcessor" type-id="Class:5835c8735b9445039a08c962895a6715" />
+    </item>
+    <item id="efe14a9214034319bb41a33b64f35d3a" cid="PROP004" type="property" name="Countries" owner="83bf84b19144464e85272545685a7e1f" creator="" creation-date="04/24/2023 13:30:51" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String[]" type-id="String[]" />
+    </item>
+    <item id="cc7e1e431656472a9c82eab2abd3fa10" cid="PROP007" type="property" owner="69e0ff1f3a70458697d575ab4de2a159" creator="" creation-date="04/24/2023 13:35:29" visibility="private" />
+    <item id="3af20f137e5c471fa514adc183461540" cid="PROP006" type="property" owner="69e0ff1f3a70458697d575ab4de2a159" creator="" creation-date="04/24/2023 13:35:29" visibility="private">
+      <structural-feature type="PaymentProcessor" type-id="Class:5835c8735b9445039a08c962895a6715" />
+      <property aggregation="shared" />
+    </item>
+  </items>
+  <models>
+    <model id="p57689f9d060445629283db900b506861_778283849" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Piotr Woszczak</author>
+        </authors>
+        <description />
+        <creation-date>04/24/2023 12:58:47</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p2ed45fe62b72494aabdc1d1297394247_969189764" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-34,17" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Piotr Woszczak</author>
+          </authors>
+          <description />
+          <creation-date>04/24/2023 12:58:47</creation-date>
+          <change-date>04/24/2023 13:54:03</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ffa90a4d762f4b5991790c2e3ebf5a38" cid="REA001" type="realization" creator="" creation-date="04/24/2023 13:34:31" from="6b4be3575164402db702b166726cf90d" to="83bf84b19144464e85272545685a7e1f" visibility="package" />
+          <item id="dae35fa809cb4d6caffd4106ed0abc4d" cid="REA003" type="realization" creator="" creation-date="04/24/2023 13:34:43" from="e589f7376c364f2ead53ebf519b832ed" to="83bf84b19144464e85272545685a7e1f" visibility="package" />
+          <item id="e589f7376c364f2ead53ebf519b832ed" cid="C006" type="class" name="GooglePay" creator="" creation-date="04/24/2023 13:26:29" visibility="undefined">
+            <operations>
+              <operation id="o9d1e08cabab04f8aaa9b98d70e273eb0617" cid="OP007" name="executePayment" creation-date="04/24/2023 13:51:51" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pa24479fa1b4f4cd3b2f4c8107203870b" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="43a7de0eb0b24fec99d71933dd3bb353" cid="C004" type="class" name="Przelew" creator="" creation-date="04/24/2023 13:25:43" visibility="undefined">
+            <operations>
+              <operation id="o949b31df90e34c0186b4671d91d97c5a35" cid="OP009" name="executePayment" creation-date="04/24/2023 13:52:03" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pfdf6c75012824ca789c3254d74e20374" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="c3ac3ce13c9248089233f24759565977" cid="REA005" type="realization" creator="" creation-date="04/24/2023 13:34:53" from="43a7de0eb0b24fec99d71933dd3bb353" to="83bf84b19144464e85272545685a7e1f" visibility="package" />
+          <item id="b9a83d84c8af4a798e041cc9373362d8" cid="C007" type="class" name="Karta" creator="" creation-date="04/24/2023 13:28:01" visibility="undefined">
+            <operations>
+              <operation id="o2fabcdf0d8a3422d996f9fdcbc99029e361" cid="OP010" name="executePayment" creation-date="04/24/2023 13:52:07" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p1bb1d7a187f541858f60c3c73cae895a" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="64d2d52259ca4535ba70daa5c585d879" cid="REA004" type="realization" creator="" creation-date="04/24/2023 13:34:49" from="b9a83d84c8af4a798e041cc9373362d8" to="83bf84b19144464e85272545685a7e1f" visibility="package" />
+          <item id="34d8f37065174e6891aa9e60e028137f" cid="REA006" type="realization" creator="" creation-date="04/24/2023 13:34:57" from="c93513511cf744839b96c77a522fc440" to="83bf84b19144464e85272545685a7e1f" visibility="package" />
+          <item id="f7c2ab3c8eb14d4aad44d312ca53c290" cid="ELEM001" type="drawing-rounded-rect" name="RoundedRectangle1" creator="" creation-date="04/24/2023 13:53:00">
+            <drawing />
+            <drawing-rounded-rect radius="20,20,20,20" />
+          </item>
+          <item id="69e0ff1f3a70458697d575ab4de2a159" cid="REL001" type="relationship" creator="" creation-date="04/24/2023 13:35:29" from="5835c8735b9445039a08c962895a6715" to="83bf84b19144464e85272545685a7e1f" visibility="package">
+            <owned-items />
+            <relation from="5835c8735b9445039a08c962895a6715" to="83bf84b19144464e85272545685a7e1f" derived="false">
+              <start-role id="umlar-fd290412-f084-404f-93d5-0055e4c7ac7f" name="" navigability="" association-type="aggregation" visibility="private" property-ref="3af20f137e5c471fa514adc183461540" />
+              <end-role id="umlar-f3292693-d6f0-47d8-a3fd-f1d4d2834806" name="" navigability="" association-type="association" visibility="private" property-ref="cc7e1e431656472a9c82eab2abd3fa10" />
+            </relation>
+          </item>
+          <item id="6b4be3575164402db702b166726cf90d" cid="C003" type="class" name="Blik" creator="" creation-date="04/24/2023 13:25:38" visibility="undefined">
+            <operations>
+              <operation id="o169c5af85db543c58fedb8b5763a1bb4721" cid="OP006" name="executePayment" creation-date="04/24/2023 13:51:35" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pc3a14f00ebc049ceab7e78d66a9d6d02" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="5835c8735b9445039a08c962895a6715" cid="C002" type="class" name="PaymentProcessor" creator="" creation-date="04/24/2023 13:25:10" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="ab0d755365e7147e09022c30a6af1ea6a839" cid="PROP008" name="paymentMethod" creation-date="04/24/2023 13:49:20" property-ref="7d3fd39395f5453a8cb1edcc20df8995" />
+            </attributes>
+            <operations>
+              <operation id="o4a097349cca24782beffd21361715bec536" cid="OP004" name="setPayment" creation-date="04/24/2023 13:49:50" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p4067b209f46f4854bdce6d5a9e2c9bf9" name="PaymentMethod" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o408ada563122444c9c3a25e5d4d367eb280" cid="OP011" name="doSomething" creation-date="04/24/2023 13:54:48" type="" type-id="" visibility="undefined" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="83bf84b19144464e85272545685a7e1f" cid="I001" type="uml-interface-classifier" name="PaymentMethod" creator="" creation-date="04/24/2023 13:25:24" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="83bf84b19144464e85272545685a7e1f_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <owned-items />
+            <attributes>
+              <attribute id="a0df99b84c3064cbd9eac640d6b360903967" cid="PROP001" name="platformName" creation-date="04/24/2023 13:29:59" property-ref="9b60b977260946df91e78ba997aa920f" />
+              <attribute id="a04316eba288e45d5afdfc748f4438bdb80" cid="PROP003" name="Fees" creation-date="04/24/2023 13:30:51" property-ref="4608793a1cb64db89091c2af947bfd73" />
+              <attribute id="abd71cbf8e6b447b9a5d8c7a2be57ab9d98" cid="PROP004" name="Countries" creation-date="04/24/2023 13:30:51" property-ref="efe14a9214034319bb41a33b64f35d3a" />
+            </attributes>
+            <operations>
+              <operation id="of599f7504f1f4ea8b526537daf52b202220" cid="OP001" name="getPlatformName" creation-date="04/24/2023 13:31:30" type="String" type-id="Uml.String" visibility="undefined" />
+              <operation id="ocefa3bbee2504916be52b0c235f9f733545" cid="OP002" name="getFees" creation-date="04/24/2023 13:31:31" type="String[]" type-id="String[]" visibility="undefined" />
+              <operation id="o75e3aadb32bd44498d99c3bb1cc77955693" cid="OP003" name="getCountries" creation-date="04/24/2023 13:31:46" type="String[]" type-id="String[]" visibility="undefined" />
+              <operation id="o113bb4125dea4f26871a969b71a0f145794" cid="OP005" name="executePayment" creation-date="04/24/2023 13:51:17" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p3d0904af353343f0bf089d39d8e40372" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="c93513511cf744839b96c77a522fc440" cid="C005" type="class" name="Paypal" creator="" creation-date="04/24/2023 13:26:05" visibility="undefined">
+            <owned-items />
+            <operations>
+              <operation id="obdd26d8969db46328126b1893b56dc2436" cid="OP008" name="executePayment" creation-date="04/24/2023 13:51:57" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p5ae206022e714e73829dd19f3afa74c1" name="data" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="d86ae12ff5154c0e935538d2a7c379ef" cid="ELEM003" type="text" name="Text1" creator="" creation-date="04/24/2023 13:53:15">
+            <style style-name="Transparent" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#000000" font="Segoe UI;26;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+              <text-style type="text" color="#000000" font="Segoe UI;26;" />
+              <text-style type="tagged-value" color="#1E1E1E" font="Segoe UI;9.75;" />
+              <text-style type="stereotype" color="#1E1E1E" font="Segoe UI;9;I" />
+              <background type="solid" colors="#00FFFFFF,#00FFFFFF" />
+              <border color="#000000" width="0" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#000000" font="Segoe UI;26;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+                  <text-style type="text" color="#000000" font="Segoe UI;26;" />
+                  <text-style type="tagged-value" color="#1E1E1E" font="Segoe UI;9.75;" />
+                  <text-style type="stereotype" color="#1E1E1E" font="Segoe UI;9;I" />
+                  <background type="solid" colors="#7E1E90FF,#87CEFA" />
+                  <border color="#00008B" />
+                  <label-connector color="#000000" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <drawing-text>
+              <text>Client</text>
+            </drawing-text>
+          </item>
+          <item id="d74885d9ab1e44b4a3f5d9d441dd1eb6" cid="REL002" type="relationship" creator="" creation-date="04/24/2023 13:54:03" from="d86ae12ff5154c0e935538d2a7c379ef" to="5835c8735b9445039a08c962895a6715" visibility="package">
+            <owned-items />
+            <relation from="d86ae12ff5154c0e935538d2a7c379ef" to="5835c8735b9445039a08c962895a6715" derived="false">
+              <start-role id="umlar-90bcfecf-2604-45f0-9fad-1c490fc99bc7" name="" navigability="" association-type="association" visibility="private" property-ref="7b66c2a3e72c40f78153179fc1530ae5" />
+              <end-role id="umlar-eb7887d3-8fa0-43dc-bdf6-d698d53b3f3d" name="" navigability="yes" association-type="association" visibility="private" property-ref="776c53e80cd84450876cf210cc498ec2" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="0e9d45ed6f3441f1b3a87ca43b51472a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="5835c8735b9445039a08c962895a6715" iid="4f253ac9753748058dd40f629e722d87" show-fields="true" creation-date="04/24/2023 13:25:10" order-index="0" type="entity">
+            <layout ax="583" ay="197" awidth="140" aheight="160" x="583" y="197" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="83bf84b19144464e85272545685a7e1f" iid="fe6088ae2c074a7ca0bcc290a1b4e965" creation-date="04/24/2023 13:25:24" order-index="1" type="entity">
+            <layout ax="568.5" ay="431" awidth="169" aheight="201" x="568.5" y="431" width="140" height="201" rotation-center="0,14" />
+            <classifier />
+            <class />
+          </item>
+          <item id="6b4be3575164402db702b166726cf90d" iid="4a4fae61118b4f86b770c2d099a7d9c7" show-fields="true" creation-date="04/24/2023 13:25:38" order-index="2" type="entity">
+            <layout ax="245" ay="692" awidth="140" aheight="160" x="245" y="692" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="43a7de0eb0b24fec99d71933dd3bb353" iid="e1b25b81d62c47fabeaa01e37eb33b3b" show-fields="true" creation-date="04/24/2023 13:25:43" order-index="3" type="entity">
+            <layout ax="752" ay="692" awidth="140" aheight="160" x="752" y="692" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c93513511cf744839b96c77a522fc440" iid="7a5ff7789bf040deb37bda4499943fbc" show-fields="true" creation-date="04/24/2023 13:26:05" order-index="4" type="entity">
+            <layout ax="583" ay="692" awidth="140" aheight="160" x="583" y="692" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e589f7376c364f2ead53ebf519b832ed" iid="932a231354b04fc49a5aebc289894c20" show-fields="true" creation-date="04/24/2023 13:26:29" order-index="5" type="entity">
+            <layout ax="414" ay="692" awidth="140" aheight="160" x="414" y="692" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="b9a83d84c8af4a798e041cc9373362d8" iid="8bdf7fb1e9224e8f8ba67a0197a09cdf" show-fields="true" creation-date="04/24/2023 13:28:01" order-index="6" type="entity">
+            <layout ax="921" ay="692" awidth="140" aheight="160" x="921" y="692" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ffa90a4d762f4b5991790c2e3ebf5a38" iid="996424e7b7aa4c9f88bfab35048b65cb" creation-date="04/24/2023 13:34:31" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="315" y1="692" x2="568" y2="532" start-border-pos="0.125" end-border-pos="0.874277456647399" start-local-pos="70" end-local-pos="87" name-position="0,20">
+              <points>
+                <point x="315" y="692" />
+                <point x="568" y="532" />
+              </points>
+            </layout>
+            <relation from="6b4be3575164402db702b166726cf90d" from-iid="4a4fae61118b4f86b770c2d099a7d9c7" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="dae35fa809cb4d6caffd4106ed0abc4d" iid="3d9eb925ab8c49a39c83104b964c60f8" creation-date="04/24/2023 13:34:43" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="484" y1="692" x2="568" y2="632" start-border-pos="0.125" end-border-pos="0.75" start-local-pos="70" end-local-pos="173" name-position="0,20">
+              <points>
+                <point x="484" y="692" />
+                <point x="568" y="632" />
+              </points>
+            </layout>
+            <relation from="e589f7376c364f2ead53ebf519b832ed" from-iid="932a231354b04fc49a5aebc289894c20" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="64d2d52259ca4535ba70daa5c585d879" iid="c7285e54c1ee48298506ca2f397cad0a" creation-date="04/24/2023 13:34:49" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="991" y1="692" x2="738" y2="532" start-border-pos="0.125" end-border-pos="0.375722543352601" start-local-pos="70" end-local-pos="87" name-position="0,20">
+              <points>
+                <point x="991" y="692" />
+                <point x="738" y="532" />
+              </points>
+            </layout>
+            <relation from="b9a83d84c8af4a798e041cc9373362d8" from-iid="8bdf7fb1e9224e8f8ba67a0197a09cdf" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="c3ac3ce13c9248089233f24759565977" iid="10480c52aac34c9dbc4f2ae595aca34f" creation-date="04/24/2023 13:34:53" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="822" y1="692" x2="738" y2="632" start-border-pos="0.125" end-border-pos="0.5" start-local-pos="70" end-local-pos="173" name-position="0,20">
+              <points>
+                <point x="822" y="692" />
+                <point x="738" y="632" />
+              </points>
+            </layout>
+            <relation from="43a7de0eb0b24fec99d71933dd3bb353" from-iid="e1b25b81d62c47fabeaa01e37eb33b3b" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="34d8f37065174e6891aa9e60e028137f" iid="f9fae46d680046119a928fbf67cbe8bf" creation-date="04/24/2023 13:34:57" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="653" y1="692" x2="653" y2="632" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="84.5" name-position="0,20">
+              <points>
+                <point x="653" y="692" />
+                <point x="653" y="632" />
+              </points>
+            </layout>
+            <relation from="c93513511cf744839b96c77a522fc440" from-iid="7a5ff7789bf040deb37bda4499943fbc" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="69e0ff1f3a70458697d575ab4de2a159" iid="0a1f9522431249c587285da69738e8ae" creation-date="04/24/2023 13:35:29" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="653" y1="357" x2="653" y2="431" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="70" end-local-pos="84.5" name-position="0,20">
+              <points>
+                <point x="653" y="357" />
+                <point x="653" y="431" />
+              </points>
+            </layout>
+            <relation from="5835c8735b9445039a08c962895a6715" from-iid="4f253ac9753748058dd40f629e722d87" to="83bf84b19144464e85272545685a7e1f" to-iid="fe6088ae2c074a7ca0bcc290a1b4e965" />
+          </item>
+          <item id="f7c2ab3c8eb14d4aad44d312ca53c290" iid="e426df2379c04461a4f03f86234febca" creation-date="04/24/2023 13:53:00" order-index="13" type="entity">
+            <layout ax="583" ay="101" awidth="140" aheight="44" x="583" y="101" width="140" height="44" rotation-center="0,-58" />
+          </item>
+          <item id="d86ae12ff5154c0e935538d2a7c379ef" iid="95cde2347a1c48fd98da163caac359f8" creation-date="04/24/2023 13:53:15" order-index="14" type="drawing-text">
+            <layout ax="583" ay="101" awidth="140" aheight="44" x="583" y="101" width="140" height="44" rotation-center="67,46" />
+          </item>
+          <item id="d74885d9ab1e44b4a3f5d9d441dd1eb6" iid="2be4eeb640cc44d8b6e8ea94512b3d1e" creation-date="04/24/2023 13:54:03" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="653" y1="145" x2="653" y2="197" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="70" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="653" y="145" />
+                <point x="653" y="197" />
+              </points>
+            </layout>
+            <relation from="d86ae12ff5154c0e935538d2a7c379ef" from-iid="95cde2347a1c48fd98da163caac359f8" to="5835c8735b9445039a08c962895a6715" to-iid="4f253ac9753748058dd40f629e722d87" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
